@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'REEJI-HaoHengGB-Flash-Black';
+  src: url('../fonts/DMFT1604624747624.ttf') format('trueType');
+}
+html,
+body,
+div,
+main,
+hr,
+br,
+img,
+audio,
+video,
+p,
+a,
+b,
+i,
+s,
+span,
+del,
+em,
+Strong,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+button,
+table,
+tbody,
+th,
+td,
+tr,
+thead,
+tfoot,
+center,
+nav,
+aside,
+article,
+section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+dl,
+dd,
+ol {
+  list-style-type: none;
+}

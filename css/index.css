@@ -1,0 +1,303 @@
+#Airdrop {
+  color: #fff;
+}
+#Airdrop #contract {
+  position: fixed;
+  top: -100%;
+  left: 0;
+}
+#Airdrop .wrap {
+  max-width: 750px;
+  margin: 0 auto;
+}
+#Airdrop .banner {
+  height: 21.33rem;
+  background: url('../img/banner.png') no-repeat center center / 100% 100%;
+  padding-top: 7.89rem;
+}
+#Airdrop .banner .tips {
+  font-size: 0.8rem;
+  line-height: 1em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.93rem;
+}
+#Airdrop .banner .video {
+  margin: 0 auto;
+  width: 15.68rem;
+  height: 8.8rem;
+  background: linear-gradient(180deg, #05326B, #060B15);
+  position: relative;
+}
+#Airdrop .banner .video video {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+#Airdrop .banner .video video.active {
+  display: block;
+}
+#Airdrop .banner .video .play {
+  position: absolute;
+  width: 2.43rem;
+  height: 2.43rem;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#Airdrop main {
+  background-image: url('../img/main-bg.png');
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: 100% auto;
+  padding-bottom: 1.23rem;
+}
+#Airdrop main .activity {
+  padding: 1.71rem 0 0.5rem;
+}
+#Airdrop main .activity .ufo-icon {
+  text-align: center;
+}
+#Airdrop main .activity .ufo-icon img {
+  width: 5.25rem;
+}
+#Airdrop main .activity .title {
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1em;
+  margin-bottom: 1.2rem;
+}
+#Airdrop main .activity .title .tips {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+}
+#Airdrop main .activity .conter {
+  padding: 0 1.06rem;
+  text-align: center;
+}
+#Airdrop main .activity .conter a {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 14.03rem;
+  position: relative;
+}
+#Airdrop main .activity .conter img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#Airdrop main .activity .handle-box {
+  padding: 1.15rem 0;
+  text-align: center;
+}
+#Airdrop main .activity .handle-box .lable {
+  margin-top: 0.51rem;
+  font-size: 0.64rem;
+}
+#Airdrop main .activity .handle-box .lable2 {
+  display: flex;
+  justify-content: space-between;
+}
+#Airdrop main .activity .handle-box .lable2 button {
+  border: none;
+  min-width: 3.63rem;
+  height: 1.6rem;
+  color: #fff;
+  font-size: 0.75rem;
+  background: linear-gradient(0deg, #CA3622, #D24919, #C95736);
+  border-radius: 0.8rem;
+}
+#Airdrop main .activity.activity3 a img {
+  position: absolute;
+}
+#Airdrop main .activity.activity3 a:first-child {
+  margin-bottom: 1.39rem;
+}
+#Airdrop main .activity.activity3 .fonts {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 2.43rem;
+}
+#Airdrop main .activity.activity3 .fonts .tips {
+  text-align: center;
+  font-size: 1.92rem;
+  margin-bottom: 1.36rem;
+  font-family: 'REEJI-HaoHengGB-Flash-Black';
+}
+#Airdrop main .activity.activity3 .fonts ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#Airdrop main .activity.activity3 .fonts ul li {
+  width: 3.73rem;
+  height: 4rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#Airdrop main .activity.activity3 .fonts ul li span {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 0.68rem;
+}
+#Airdrop main .activity.activity3 .fonts ul li:nth-child(1) {
+  background-image: url('../img/lable-icon1.png');
+}
+#Airdrop main .activity.activity3 .fonts ul li:nth-child(2) {
+  margin: 0 1.31rem;
+  background-image: url('../img/lable-icon2.png');
+}
+#Airdrop main .activity.activity3 .fonts ul li:nth-child(3) {
+  background-image: url('../img/lable-icon3.png');
+}
+#Airdrop main .activity.activity3 .fonts .tips2 {
+  position: absolute;
+  left: 1rem;
+  bottom: 2.16rem;
+  line-height: 1.6rem;
+  font-size: 1.28rem;
+  text-align: left;
+}
+#Airdrop main .activity.activity3 .fonts .tips2 p:not(.min-font) {
+  font-family: 'REEJI-HaoHengGB-Flash-Black';
+}
+#Airdrop main .activity.activity3 .fonts .tips2 .min-font {
+  font-size: 0.96rem;
+}
+#Airdrop main .activity.activity3 .handle-box {
+  padding: 0;
+}
+#Airdrop main .activity.activity3 .handle-box .lable2 {
+  margin-top: 0.59rem;
+  display: flex;
+  padding: 0 1.63rem;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 0.64rem;
+  text-align: left;
+}
+#Airdrop main .activity.activity4 .conter a {
+  background-color: #1C125A;
+  border-radius: 0.85rem;
+  position: relative;
+}
+#Airdrop main .activity.activity4 .conter a .mining {
+  position: absolute;
+  top: 0;
+  left: 0.51rem;
+  width: auto;
+  height: 90%;
+  z-index: 5;
+}
+#Airdrop main .activity.activity4 .conter a ul {
+  position: absolute;
+  right: 0.48rem;
+  top: 1.79rem;
+}
+#Airdrop main .activity.activity4 .conter a ul li {
+  position: relative;
+  width: 8.64rem;
+  height: 2.37rem;
+  margin-bottom: 0.4rem;
+  color: #fff;
+  background: url('../img/tab-icon.png') no-repeat center center / 100% 100%;
+}
+#Airdrop main .activity.activity4 .conter a ul li span {
+  position: absolute;
+  left: 1.2rem;
+  top: 0.5rem;
+}
+#Airdrop main .activity.activity4 .conter a ul li p {
+  font-size: 0.85rem;
+  line-height: 2.37rem;
+  padding-left: 2rem;
+}
+#Airdrop main .activity.activity5 .conter a {
+  margin-bottom: 0.93rem;
+}
+#Airdrop main .contact {
+  padding: 0 1.06rem;
+}
+#Airdrop main .contact .content {
+  position: relative;
+  width: 100%;
+  height: 11.76rem;
+  border-radius: 0.85rem;
+  background-color: #1C125A;
+}
+#Airdrop main .contact .content .bee {
+  position: absolute;
+  width: 9.57rem;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#Airdrop main .contact .content .right-bar {
+  position: absolute;
+  right: 1.49rem;
+  padding: 1.23rem 0;
+}
+#Airdrop main .contact .content .right-bar .title {
+  text-align: center;
+  font-size: 1.28rem;
+  padding: 0;
+  margin-bottom: 0.67rem;
+}
+#Airdrop main .contact .content .right-bar ul li a {
+  width: 7.42rem;
+  padding: 0.13rem 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #372893;
+  border-radius: 1.06rem;
+  height: 2.12rem;
+  margin-bottom: 0.13rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  align-content: center;
+}
+#Airdrop main .contact .content .right-bar ul li a img {
+  height: 1.84rem;
+  margin-left: 0.32rem;
+}
+#Airdrop main .contact .content .right-bar ul li a span {
+  margin-left: 0.29rem;
+  font-size: 0.85rem;
+}
+#Airdrop .primary-btn {
+  display: inline-block;
+  width: 11.68rem;
+  height: 3.73rem;
+  background: url('../img/btn-active-bg.png') no-repeat center center / 100% 100%;
+  line-height: 3.73rem;
+  text-decoration: none;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.28rem;
+  color: #E14A02;
+}
+#Airdrop .disable-btn {
+  display: inline-block;
+  width: 11.68rem;
+  height: 3.73rem;
+  background: url('../img/btn-active-disable.png') no-repeat center center / 100% 100%;
+  line-height: 3.73rem;
+  text-decoration: none;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.28rem;
+  color: #B6B0D7;
+}
